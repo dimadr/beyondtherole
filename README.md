@@ -1,32 +1,39 @@
-# Astro Starter Kit: Basics
+# Beyond The Role
 
-```sh
-npm create astro@latest -- --template basics
-```
+Сайт-проект о человеке вне ролей, ожиданий и социальных масок.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## О проекте
 
-## 🚀 Project Structure
+`Beyond The Role` — это минималистичный веб-проект, созданный как пространство для размышлений о:
 
-Inside of your Astro project, you'll see the following folders and files:
+- личной идентичности;
+- эмоциональном выгорании;
+- семейных и ролевых конфликтах;
+- попытке отделить человека от навязанных обязанностей и ожиданий;
+- внутреннем состоянии за пределами социальных функций.
+
+Проект сделан без перегруженного UI и сложной архитектуры. Основной фокус — содержание, атмосфера и эмоциональная подача.
+
+## Технологии
+
+Проект построен на:
+
+- Astro
+- TailwindCSS
+- Nanostores
+
+## Структура проекта
 
 ```text
 /
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+├── public/         # Статические файлы
+├── src/
+│   ├── assets/     # Ресурсы проекта
+│   ├── components/ # UI-компоненты
+│   ├── layouts/    # Layout'ы
+│   └── pages/      # Страницы сайта
+├── package.json
+└── astro.config.*
 
 ## 🧞 Commands
 
